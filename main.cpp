@@ -7,6 +7,3 @@ int main()
     cout << "Hello world!";
     return 0;
 }
-/*
-Testing 123
-*/
