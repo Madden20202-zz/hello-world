@@ -11,6 +11,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!";
+    cout << "Hello World! \n";
+    /*
+    \n adds a ine break, two (\n\n) will make a blank line
+    */
+
+    cout << "I am learning C++";
+
     return 0;
 }
