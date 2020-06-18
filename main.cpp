@@ -12,22 +12,22 @@ int main()
     //int stands for Integer, which stores whole numbers without decimals
     int a = 10;
 
-    cout << a;
+    cout << a << endl; // note that, though the endl is used in this case, it is against convention to do so
 
     //float is used for storing floating point numbers, that have decimals
     float pi = 3.14;
 
-    cout << pi;
+    cout << pi << endl;
 
     //char stands for Characters and stores single letters
     char middleInitial = 'k';
 
-    cout << middleInitial;
+    cout << middleInitial << endl;
 
     //string combines an array of chars into full sentences
     string alert = "This is a basic test!";
 
-    cout << alert;
+    cout << alert << endl;
 
     //bool stands for Boolean, which can only store true or false values
     bool playerTurn = true;
