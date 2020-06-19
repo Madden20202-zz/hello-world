@@ -25,4 +25,13 @@ int main()
     cout << age << "\n" << nameForChild << "\n" << m << "\n" << a;
 
     return 0; //Though this is assumed, DO NOT FORGET!!
+
+    // Here are the basic rules to making identifiers
+    /*
+        Names can contain letters, underscores, and digits
+        Names must start with a letter or underscore
+        Names are case sensitive, so var and Var are two different variables
+        Names may NOT contain whitespace or special characters like ! @ # $
+        Reserved words can not be used, such as init or main
+    */
 }
