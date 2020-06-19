@@ -14,7 +14,7 @@ int main()
 
     int m = 5, b = 4;
 
-    char y = "y", x = "x";
+    string y = "y", x = "x";
 
     cout << y << "=" << m << x << "+" << b;
 }
