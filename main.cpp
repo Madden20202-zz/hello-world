@@ -9,34 +9,12 @@ int main()
 {
     // Let's learn about Variables!
 
-    //int stands for Integer, which stores whole numbers without decimals
-    int a = 10;
+    // Variables can all be declared on the same line
+    // but only if they are of the same type, and separated by a comma!
 
-    cout << a << endl; // note that, though the endl is used in this case, it is against convention to do so
+    int m = 5, b = 4;
 
-    //float is used for storing floating point numbers, that have decimals
-    float pi = 3.14;
+    char y = "y", x = "x";
 
-    cout << pi << endl;
-
-    //char stands for Characters and stores single letters
-    char middleInitial = 'k';
-
-    cout << middleInitial << endl;
-
-    //string combines an array of chars into full sentences
-    string alert = "This is a basic test!";
-
-    cout << alert << endl;
-
-    //bool stands for Boolean, which can only store true or false values
-    bool playerTurn = true;
-
-    if(playerTurn = true) {
-        cout << "It is your turn!";
-    } else {
-        cout << "An error has occured, please check the code";
-    }
-
-    return 0;
+    cout << y << "=" << m << x << "+" << b;
 }
