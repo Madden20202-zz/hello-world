@@ -9,12 +9,20 @@ int main()
 {
     // Let's learn about Variables!
 
-    // Variables can all be declared on the same line
-    // but only if they are of the same type, and separated by a comma!
+    // Identifiers are unique names for variables
+    // all variables MUST have a unique identifier
+    // this is helpful for calling on your variable later
 
-    int m = 5, b = 4;
+    // There are naming conventions
+    // Simply put, try to describe what it is
 
-    string y = "y", x = "x";
+    int age = 32; // this is a good identifier, since it describes in one word what it is for
+    string nameForChild = "Maggie"; // this is also good, since it makes it clear that the varibale is a name for a child
 
-    cout << y << "=" << m << x << "+" << b;
+    int m = 32; // unless it is clearly stated why it is called m, such as for an equation, this is a poor identifier
+    string a = "Maggie"; // this is also an unclear identifier, because what is this used for?
+
+    cout << age << "\n" << nameForChild << "\n" << m << "\n" << a;
+
+    return 0; //Though this is assumed, DO NOT FORGET!!
 }
