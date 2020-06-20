@@ -9,16 +9,25 @@ int main()
 {
    // User Input
 
-   // If you have noticed, cout displays text to the user and uses <<
-   // To take information from the user, use cin and >>
+   // Let's test how much we can use this new information
 
-   int x;
+   int x, y;
 
-   cout << "Please put your age in! \n";
+   int sum;
+
+   cout << "I am able to add any two numbers! \n\n";
+
+   cout << "Please give me the first number \n";
 
    cin >> x;
 
-   cout << "You are " << x << " year(s) old!";
+   cout << "Please give me the second number \n";
+
+   cin >> y;
+
+   sum = x + y;
+
+   cout << "The total is " << sum;
 
    return 0;
 }
