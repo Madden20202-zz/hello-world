@@ -7,16 +7,18 @@ using namespace std;
 
 int main()
 {
-   // Constants
+   // User Input
 
-   // Constants allow a coder to make a variable thats value can not be changed
+   // If you have noticed, cout displays text to the user and uses <<
+   // To take information from the user, use cin and >>
 
-   // Certain rules should be followed
-   // Make sure that it is a variable that will not change at all i.e. pi
+   int x;
 
-   const string favoriteFood = "Pizza";
+   cout << "Please put your age in! \n";
 
-   cout << "My favorite food is " << favoriteFood;
+   cin >> x;
 
-    return 0;
+   cout << "You are " << x << " year(s) old!";
+
+   return 0;
 }
