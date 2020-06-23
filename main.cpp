@@ -9,41 +9,22 @@ using namespace std;
 
 int main()
 {
-   // Data Types
+   // Operators
 
    /*
-    C++, like C, can perform memory management!
-    First, lets go over how much memory all the
-    basic data types take
+    What is an Operator?
+    An operator is anything that allows values or variables to be changed
+    You can think of it being the PEMDAS operations, though the validity of this is not confirmed
    */
 
-   int age = 25; //Stores whole numbers, using 4 bytes
-   float detailedAge = 25.67; //Stores fractional numbers up to seven decimal spaces, using 4 bytes
-   double pi = 3.14159265358979; // Stores fractional numbers up to fifteen decimal spaces, using 4 bytes
-   bool adult = true; // Stores true or false (1-0) values, using 1 bytes
-   char middleInitial = 'A'; // Stores single characters, letters, or numbers using 1 byte
-   string helloWorld = "Hello World"; // Stores multiple char at once
+   // Using + operator
 
-   cout << age << "\n";
-   cout << detailedAge << "\n";
-   cout << pi << "\n";
-   cout << adult << "\n";
-   cout << middleInitial << "\n";
-   cout << helloWorld;
+   // "+" allows two values to be added together
 
-   // Char and String
+   int x = 1, y = 2;
+   int sum = x + y;
 
-   /*
-    Char is used to store single characters using single quotations ('').
-    ASCII values may also be used to represent different letters or symbols, such as ! @ $ # or %
-
-    String is a variable type that is not a built in type, since it is actually just
-    combining char values.
-    How does this make a difference?
-    The char only stores one value such as 'A' where as string can store something
-    like "Hello World"
-    Note that a string uses double quotations ("") where as char uses single quotations ('')
-   */
+   cout << sum;
 
    return 0;
 }
