@@ -21,10 +21,13 @@ int main()
 
    // "+" allows two values to be added together
 
-   int x = 1, y = 2;
+   int x = 1, y = 2, z = 3;
    int sum = x + y;
+   int combinedSum = sum + z; // notice that variables and values may be combined together in any way
 
-   cout << sum;
+   cout << sum << "\n";
+
+   cout << combinedSum;
 
    return 0;
 }
