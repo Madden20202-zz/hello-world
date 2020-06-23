@@ -17,22 +17,23 @@ int main()
     You can think of it being the PEMDAS operations, though the validity of this is not confirmed
    */
 
-   // Comparison Operators
+   // Logical Operators
 
-   // Comparison operators compare the values of two different variables or a variable and a value
+   //Logical Operators checks the values and gives responses via boolean operators
 
    /*
-    == 	Equal to
-    != 	Not equal
-    > 	Greater than
-    < 	Less than
-    >= 	Greater than or equal to
-    <= 	Less than or equal to
+    && = logical and, which will only work when both values are the same
+    || = logical or, which works if either variable is valid
+    ! = logical not, which works if the value is not the value looked for
    */
 
-   int x = 5, y = 10;
+   int age = 22, creditCards = 3;
 
-   cout << (x < y); // will return a 1 since it is true, a 0 would be false
+   cout << (age < 18 && creditCards < 1) << "\n";// returns 0 since this is false
+
+   cout << (age < 18 || creditCards < 5) << "\n"; // returns 1 since the creditCards value is less than 5
+
+   cout << !(age << 12 && creditCards > 10); // returns 1 since the statement is false but the not turns it true
 
    return 0;
 }
