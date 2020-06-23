@@ -17,28 +17,22 @@ int main()
     You can think of it being the PEMDAS operations, though the validity of this is not confirmed
    */
 
-   // Using + operator
+   // Comparison Operators
 
-   // "+" allows two values to be added together
-
-   int x = 1, y = 2, z = 3;
-   int sum = x + y;
-   int combinedSum = sum + z; // notice that variables and values may be combined together in any way
-
-   cout << sum << "\n";
-
-   cout << combinedSum;
+   // Comparison operators compare the values of two different variables or a variable and a value
 
    /*
-    All of the arithmetic values can be used
-    Addition = +
-    Subtraction = -
-    Multiplication = *
-    Division = /
-    Modulus (returns the remainder) = %
-    Increment = ++(any value or variable)
-    Decrement = --(any value or variable)
+    == 	Equal to
+    != 	Not equal
+    > 	Greater than
+    < 	Less than
+    >= 	Greater than or equal to
+    <= 	Less than or equal to
    */
+
+   int x = 5, y = 10;
+
+   cout << (x < y); // will return a 1 since it is true, a 0 would be false
 
    return 0;
 }
