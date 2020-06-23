@@ -29,5 +29,16 @@ int main()
 
    cout << combinedSum;
 
+   /*
+    All of the arithmetic values can be used
+    Addition = +
+    Subtraction = -
+    Multiplication = *
+    Division = /
+    Modulus (returns the remainder) = %
+    Increment = ++(any value or variable)
+    Decrement = --(any value or variable)
+   */
+
    return 0;
 }
